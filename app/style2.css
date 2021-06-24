@@ -1,0 +1,322 @@
+#header{
+  background-color: darkred;
+  height: auto;
+  grid-row: 1;
+  grid-column: 1 / 4;
+}
+
+/* EN TETE DE NAVIGATION DE L'APPLICATION */
+a:link
+{
+ text-decoration:none;
+ color: white;
+}
+
+.head-nav{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+  color:white;
+  grid-row: 1;
+}
+
+#header li{
+  display: inline;
+  width: 100px;
+  padding:10px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  background-color: rgb(187, 187, 187);
+  background-image:linear-gradient();
+  color:darkred;
+}
+
+#header li:hover {
+  background-color:darkred;
+  color:black;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.titres{
+  position: relative;
+  color:white;
+}
+
+#nav{
+  float: right;
+  margin-top: 73px;
+
+}
+body{
+  margin:0;
+  display: grid;
+  grid-template-columns: repeat(3, 4);
+  grid-auto-rows: minmax(auto, auto);
+  background-color: rgb(230, 230, 230);
+}
+
+#corps{
+  background-color: rgb(230, 230, 230);
+  color:darkred;
+  padding:0;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 2);
+  grid-auto-rows: minmax(100, auto);
+}
+
+/*Si la table est vide affiche le message que aucunes données n'a été répertoriées*/
+.vide{
+  padding-left:200px;
+  padding-top:200px;
+  padding-bottom:200px;
+  padding-right: 50px;
+  background-color: rgb(230, 230, 230);
+  font-size: 3em;
+  width: 1200px;
+}
+/* Page demande  */
+
+#etudiantH{
+  display: none;
+}
+#disponibilite {
+  margin-left: 100px;
+  width: 40%;
+  grid-row: 1;
+  grid-column: 1/2;
+}
+#formulaire{
+  background: none;
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+
+.info {
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px auto;
+  width: 360px;
+
+}
+
+.body_ajoutmodele{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 500px;
+  width: 360px;
+}
+
+#personnel {
+  margin-left: 50px;
+}
+#autres{
+  margin-left: 50px;
+}
+
+.info-input {
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+
+#mat-select{
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+
+h1.info-title {
+  color: #000000;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -45px 26px;
+  width: 400px;
+}
+
+.info-select{
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+
+.info-button {
+  border-radius: 5px;
+  background: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: 51px;
+  padding: 0;
+  margin-right: 10px;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+
+table{
+  border-collapse:collapse;
+  background-color:white;
+  height: 20px;
+}
+
+/*Page ajout matériel*/
+
+.add-button{
+  border-radius: 5px;
+  background: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  margin-right: 5px;
+  color: #fff;
+  border: 0;
+  outline:0;
+  white-space: pre-line;
+}
+
+#nouveaumodele{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 50px;
+  padding-left: 50px;
+  width: 360px;
+  border: solid;
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+#nouveaumateriel{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 10px;
+  width: 360px;
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+
+/* Page validation prêt  */
+.valid-button{
+  border-radius: 5px;
+  background-color: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  margin: 30px;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+
+#corpsVP{
+  background-color: rgb(230, 230, 230);
+  color:darkred;
+  padding-left:347px;
+  padding-right: 89.5px;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+#corpsVP h1{
+  padding-left:300px;
+  width: auto;
+}
+
+.demande th{
+  padding:10px;
+}
+.materiel th{
+  padding:10px;
+}
+.resume th{
+  padding:10px;
+}
+
+.compt-input{
+  font-size: 14px;
+  background: rgb(230, 230, 230);
+  border: none;
+  margin-bottom: 25px;
+  width: 30px;
+  height: 30px;
+}
+
+/*Page réception matériel*/
+#big{
+  position: absolute;
+  top: 180px;
+    margin-left: 25%;
+}
+
+#end_button{
+  position: absolute;
+  top: 500px;
+}
+.listeChoix{
+  padding-left: 15px;
+}
+
+#boutton{
+  text-align: center;
+}
+
+#end_button{
+  margin-left: 115px;
+}
+
+.retourNormal{
+  position: relative;
+  margin-left: 25%;
+}
+.resume_array{
+position: relative;
+margin-left: 25%;
+}
+
+#button3{
+
+  margin-top: 15px;
+  padding: 0;
+  margin-left: 105px;
+}
+
+#retourUrgent{
+width: 150px;
+font-size: 25px;
+}
+
+.hide{
+position: relative;
+margin-left: 25%;
+}
+
+#retourNormalButton{
+position: relative;
+margin-top: 2em;
+width: 150px;
+font-size: 25px;
+}
