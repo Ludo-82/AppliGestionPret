@@ -1,0 +1,344 @@
+#header{
+  background-color: darkred;
+  height: auto;
+  grid-row: 1;
+  grid-column: 1 / 4;
+}
+/* EN TETE DE NAVIGATION DE L'APPLICATION */
+a:link
+{
+ text-decoration:none;
+ color: white;
+}
+
+
+
+
+.head-nav{
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+  color:white;
+  grid-row: 1;
+}
+
+
+#header li{
+  display: inline;
+  width: 100px;
+  padding:10px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  background-color: rgb(187, 187, 187);
+  background-image:linear-gradient();
+  color:darkred;
+}
+#header li:hover {
+  background-color:darkred;
+  color:white;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+
+.titres{
+  position: relative;
+  color:white;
+}
+
+#nav{
+  float: right;
+  margin-top: 73px;
+}
+
+body{
+  margin:0;
+  display: grid;
+  grid-template-columns: repeat(3, 4);
+  grid-auto-rows: minmax(auto, auto);
+  background-color: rgb(230, 230, 230);
+}
+
+
+#corps{
+  background-color: rgb(230, 230, 230);
+  color:darkred;
+  padding:0;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 2);
+  grid-auto-rows: minmax(100, auto);
+}
+/*Si la table est vide affiche le message que aucunes données n'a été répertoriées*/
+.vide{
+  padding-top: 200px;
+  background-color: rgb(230, 230, 230);
+  font-size: 3em;
+}
+/* Page demande  */
+
+#etudiantH{
+  display: none;
+}
+#disponibilite {
+  margin-left: 100px;
+  width: 40%;
+  grid-row: 1;
+  grid-column: 1/2;
+}
+#formulaire{
+  background: none;
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+
+.info {
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px auto;
+  width: 360px;
+
+}
+.body_ajoutmodele{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 500px;
+  width: 360px;
+}
+
+#personnel {
+  margin-left: 50px;
+}
+#autres{
+  margin-left: 50px;
+}
+
+.info-input {
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+#mat-select{
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+h1.info-title {
+  color: #000000;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -45px 26px;
+  width: 400px;
+}
+.info-select{
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  width: 347px;
+  height: 2em;
+}
+.info-button {
+  border-radius: 5px;
+  background: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: 51px;
+  padding: 0;
+  margin-right: 10px;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+
+
+
+table{
+  border-collapse:collapse;
+  background-color:white;
+  height: 20px;
+}
+
+/*Page ajout matériel*/
+
+.add-button{
+  border-radius: 5px;
+  background: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  margin-right: 5px;
+  color: #fff;
+  border: 0;
+  outline:0;
+  white-space: pre-line;
+}
+
+#nouveaumodele{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 50px;
+  padding-left: 50px;
+  width: 360px;
+  border: solid;
+  grid-row: 1;
+  grid-column: 1 / 2;
+}
+
+#nouveaumateriel{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px 10px;
+  width: 360px;
+  grid-row: 1;
+  grid-column: 3 / 4;
+}
+/* Page validation prêt  */
+.valid-button{
+  border-radius: 5px;
+  background-color: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  margin: 30px;
+  margin-left: 300px;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.return-button{
+  border-radius: 5px;
+  background-color: #cf2424;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  margin: 30px;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+
+#corpsVP{
+  background-color: rgb(230, 230, 230);
+  color:darkred;
+  padding-left:347px;
+  margin-top: 0;
+}
+#corpsVP h1{
+  padding-left:300px;
+  width: auto;
+}
+.demande{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.demande th{
+  padding:10px;
+}
+.select:hover{
+  background-color:rgb(219, 67, 67);
+  color:white;
+}
+.materiel th{
+  padding:10px;
+}
+
+.resume th{
+  padding:10px;
+}
+
+.resume-input{
+  border:none;
+}
+
+.demande td{
+  padding: 10px;
+}
+
+
+#scrolltab{
+  min-height:300px;
+  height:300px;
+  min-width:800px;
+  width:800px;
+  overflow:auto;
+}
+
+
+
+
+.compt-input{
+  font-size: 14px;
+  background: rgb(230, 230, 230);
+  border: none;
+  margin-bottom: 25px;
+  width: 30px;
+  height: 30px;
+}
+/*PAge MAJ horaires*/
+
+.horaires{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  margin: 30px auto;
+  width: 360px;
+  margin-left: 300px;
+}
+.horaire-input{
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  width: 200px;
+  height: 2em;
+}
+
+.date_dispo{
+  margin-top:20px;
+}
+
+.date_dispo th{
+  padding: 10px;
+}
+
+.date_dispo td{
+  padding: 10px;
+}
+
+#resumeMateriel{
+  padding: 30px 25px 10px 25px;
+  background: rgb(230, 230, 230);
+  width: 360px;
+  grid-row: 2;
+  grid-column: 3 / 4;
+}
+
+#dispo3{
+  position : relative;
+  margin-top: 1em;
+
+}
