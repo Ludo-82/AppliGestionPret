@@ -19,3 +19,5 @@ La page modèle.php est simplement un modèle pour l'entête de chaque page.
 Les pages receptionmatnormal.php et receptionmaturgent.php contienent aussi des mails à changer par le votre. Ligne 34 pour la première et ligne 38 pour la deuxième.
 
 La connexion à la base de données se fait via un PDO à chaque début de page. 
+
+Il y a deux bases de données dans le fichier, une avec quelques données et l'autre avec seulement les formations que propose l'UFR informatique sur le campus de Toulouse.
